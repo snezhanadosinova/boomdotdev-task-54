@@ -27,3 +27,18 @@ html {
   font-size: 10rem;
   flex-flow: column;
 }
+
+
+@media (min-width: 900px) {
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    grid-gap: 20px;
+  }
+}
+
+img {
+  height: 250px;
+  width: 100%;
+}
